@@ -2,6 +2,7 @@ from tkinter import *
 import random
 from collections import Counter
 import locale
+import re
 locale.setlocale(locale.LC_ALL, '')
 
 deck_of_cards = {0: [2, 'Heart Two'], 1: [3, 'Heart Three'], 2: [4, 'Heart Four'], 3: [5, 'Heart Five'],
